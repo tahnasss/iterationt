@@ -1,0 +1,335 @@
+option.iterationT_VERSION=iterationT by Tahnass
+option.iterationT_VERSION_TYPE=开发阶段
+value.iterationT_VERSION_TYPE.AT=正式发布
+
+option.TITLE=启动标题
+
+profile.Default=默认
+profile.Mist=薄雾
+profile.AfterRain=雨后
+
+
+
+
+
+screen.LIGHTING=§e光照
+
+screen.LIGHT_SOURCE=§e光照设置
+    option.sunPathRotation=日月倾角
+    option.SUNLIGHT_INTENSITY=阳光强度
+    option.SKYLIGHT_INTENSITY=环境光强度
+    option.NIGHT_BRIGHTNESS=夜间亮度比值
+    option.COLD_MOONLIGHT=冷色月光
+    option.TORCHLIGHT_BRIGHTNESS=方块光照强度
+    option.TORCHLIGHT_COLOR_TEMPERATURE=方块光照色温
+        suffix.TORCHLIGHT_COLOR_TEMPERATURE= K
+    option.NOLIGHT_BRIGHTNESS=无光基础亮度
+    option.NETHER_BRIGHTNESS=下界环境亮度
+
+screen.HELDLIGHT=§6手持光源设置
+    option.HELDLIGHT_BRIGHTNESS=光源强度
+    option.HELDLIGHT_FALLOFF=衰减系数
+    option.NORMAL_HELDLIGHT=考虑法线
+    option.SPECULAR_HELDLIGHT=影响高光
+    option.FLASHLIGHT_HELDLIGHT=手电筒模式
+    option.FLASHLIGHT_HELDLIGHT_FALLOFF=衰减系数
+
+screen.SHADOW=§c阴影设置
+    option.shadowMapResolution=阴影贴图分辨率
+    option.shadowDistance=阴影渲染距离
+        value.shadowDistance.64.0=4
+        value.shadowDistance.96.0=6
+        value.shadowDistance.128.0=8
+        value.shadowDistance.192.0=12
+        value.shadowDistance.256.0=16
+        value.shadowDistance.384.0=24
+        value.shadowDistance.512.0=32
+        value.shadowDistance.768.0=48
+        value.shadowDistance.1024.0=64
+        suffix.shadowDistance=区块
+    option.SHADOW_MAP_BIAS=投影变形系数
+    option.SHADOW_BASIC_BLUR=基础模糊量
+    option.VARIABLE_PENUMBRA_SHADOWS=启用半影
+    option.VPS_QUALITY=半影采样质量
+    option.VPS_SPREAD=半影模糊比率
+    option.COLORED_SHADOWS=半透明阴影染色
+    option.SCREEN_SPACE_SHADOWS=屏幕空间阴影
+    option.SUNLIGHT_LEAK_FIX=漏光修复
+
+screen.GI_OPTION=§4全局光照设置
+    option.GI_RSM=RSM全局光照
+    option.GI_QUALITY=采样质量
+    option.GI_RENDER_RESOLUTION=渲染分辨率
+        value.GI_RENDER_RESOLUTION.0.25=25%
+        value.GI_RENDER_RESOLUTION.0.5=50%
+    option.GI_RADIUS=采样距离
+    option.GI_BRIGHTNESS=强度
+    option.GI_SKYLIGHT_FALLOFF=随光照衰减
+
+
+
+
+
+screen.SURFACE=§a材质
+
+option.TEXTURE_RESOLUTION=资源包分辨率
+    value.TEXTURE_RESOLUTION.0=自动
+
+option.ANISOTROPIC_FILTERING_QUALITY=各向异性过滤
+    value.ANISOTROPIC_FILTERING_QUALITY.0=关
+    value.ANISOTROPIC_FILTERING_QUALITY.2=2x
+    value.ANISOTROPIC_FILTERING_QUALITY.4=4x
+    value.ANISOTROPIC_FILTERING_QUALITY.8=8x
+    value.ANISOTROPIC_FILTERING_QUALITY.16=16x
+    value.ANISOTROPIC_FILTERING_QUALITY.32=32x
+
+option.MOD_BLOCK_SUPPORT=模组方块兼容
+    option.MOD_BLOCK_SUPPORT.comment=兼容列表：. Biomes O' Plenty.
+
+screen.POM=§6视差
+    option.PARALLAX=启用视差
+    option.PARALLAX_QUALITY=采样质量
+    option.PARALLAX_MAX_REFINEMENTS=最大重采样次数
+    option.PARALLAX_DEPTH=视差深度
+    option.SMOOTH_PARALLAX=视差平滑
+    option.PARALLAX_BASED_NORMAL=由视差生成法线
+    option.PARALLAX_SHADOW=视差阴影
+    option.PARALLAX_SHADOW_QUALITY=视差阴影质量
+
+screen.PBR=§2PBR反射
+    option.TEXTURE_PBR_FORMAT=PBR标准类型
+        value.TEXTURE_PBR_FORMAT.0=PTGI
+        value.TEXTURE_PBR_FORMAT.1=Lab PBR
+    option.ROUGHNESS_CLAMP=限制最大粗糙度
+    option.SKY_IMAGE_RESOLUTION=反射天空盒分辨率
+    option.TERRAIN_NORMAL_CLAMP=限制方块法线强度
+    option.HAND_NORMAL_CLAMP=限制手部法线强度
+    option.ENTITY_NORMAL_CLAMP=限制实体法线强度
+    option.TEXTURE_EMISSIVENESS=PBR自发光材质
+    option.EMISSIVENESS_BRIGHTNESS=亮度
+    option.EMISSIVENESS_GAMMA=Gamma曲线
+
+screen.WATER_RAIN=§3水面与雨雪
+    option.WATER_PARALLAX=水面视差
+    option.WAVE_SCALE=水波缩放
+    option.WAVE_HEIGHT=水波高度
+    option.RAIN_VISIBILITY=雨滴可见度
+    option.RAIN_SPLASH_EFFECT=雨滴涟漪
+    option.RAIN_SPLASH_BILATERAL=涟漪平滑
+    option.SURFACE_WETNESS=覆盖最低潮湿度
+    option.RAIN_SHADOW=雨天阳光遮蔽
+    option.drynessHalflife=干燥>>潮湿过渡时长
+    option.wetnessHalflife=潮湿>>干燥过渡时长
+
+screen.SKY_TEXTURE=§b天空材质
+    option.STARS=星星
+    option.MOON_TEXTURE=月亮贴图
+    option.SKY_TEXTURE_BRIGHTNESS=月亮贴图亮度
+
+screen.SURFMISC=杂项
+    option.ENTITY_STATUS_COLOR=实体状态颜色
+    option.EYES_LIGHTING=实体眼部发光
+    option.SELECTION_BOX_COLOR=选择框颜色
+        value.SELECTION_BOX_COLOR.0.0=黑色
+        value.SELECTION_BOX_COLOR.1.0=自适应白色
+    option.WAVING_PLANTS=植物晃动
+    option.PLANT_TOUCH_EFFECT=植物触碰效果
+    option.GENERAL_GRASS_FIX=给未指定的cutout方块以植物渲染
+
+
+
+
+
+screen.VOL=§b体积渲染
+
+option.PLANAR_CLOUDS=§b平面云
+screen.PC=设置
+    option.PC_COVERAGE=覆盖率
+    option.PC_NOISE_SCALE=缩放
+    option.PC_ALTITUDE=高度
+
+option.VOLUMETRIC_CLOUDS=§b体积云
+    option.VOLUMETRIC_CLOUDS.comment=§9████████§f████§9██████. §9█████§f█████████§9████. §9███§f██████§7█§f████§7█§9███. §9███§f██████§7█§f████§7██§9██. §9████§f█§7████§f███§7███§9███. §9███████§f██§7███§9██████.
+screen.VC=设置
+    option.CLOUD_ACCURACY=采样质量
+    option.CLOUD_FBM_OCTAVES=分形等级
+    option.ADAPTIVE_OCTAVES=自适应分形等级
+    option.CLOUD_LOCAL_LIGHTING=局部光照
+    option.CLOUD_LIGHTING_OFFSET=光照补偿
+    option.CLOUD_FADING=远距过渡
+    option.CLOUD_SPEED=风速
+
+    screen.CLEAR_SETTING=晴天设置
+    screen.RAIN_SETTING=雨天设置
+        option.CLOUD_CLEAR_ALTITUDE=高度
+        option.CLOUD_CLEAR_THICKNESS=厚度
+        option.CLOUD_CLEAR_COVERY=覆盖率
+        option.CLOUD_CLEAR_DENSITY=密度
+        option.CLOUD_CLEAR_SUNLIGHTING=阳光强度
+        option.CLOUD_CLEAR_SKYLIGHTING=环境光强度
+        option.CLOUD_CLEAR_NOISE_SCALE=水平缩放
+        option.CLOUD_CLEAR_FBM_OCTSCALE=分形步长
+        option.CLOUD_CLEAR_UPPER_LIMIT=垂直密度分段上界
+        option.CLOUD_CLEAR_LOWER_LIMIT=垂直密度分段下界
+
+        option.CLOUD_RAIN_ALTITUDE=高度
+        option.CLOUD_RAIN_THICKNESS=厚度
+        option.CLOUD_RAIN_COVERY=覆盖率
+        option.CLOUD_RAIN_DENSITY=密度
+        option.CLOUD_RAIN_SUNLIGHTING=阳光强度
+        option.CLOUD_RAIN_SKYLIGHTING=环境光强度
+        option.CLOUD_RAIN_NOISE_SCALE=水平缩放
+        option.CLOUD_RAIN_FBM_OCTSCALE=分形步长
+        option.CLOUD_RAIN_UPPER_LIMIT=垂直密度分段上界
+        option.CLOUD_RAIN_LOWER_LIMIT=垂直密度分段下界
+
+
+
+option.VFOG=§e体积雾
+screen.VFOG=设置
+    option.VFOG_NOISE_TYPE=噪声类型
+    value.VFOG_NOISE_TYPE.0=仅高度衰减
+    value.VFOG_NOISE_TYPE.1=团雾
+    option.VFOG_DENSITY=密度
+    option.VFOG_DENSITY_BASE=基础密度
+    option.VFOG_QUALITY=采样质量
+    option.VFOG_HEIGHT=衰减高度
+    option.VFOG_HEIGHT_2=衰减高度
+    option.VFOG_FALLOFF=衰减距离
+    option.VFOG_IGNORE_WORLDTIME=全时段启用
+    option.VFOG_STAINED=半透明方块染色
+    option.VFOG_SUNLIGHT_DENSITY=阳光强度
+    option.VFOG_FOG_DENSITY=环境光强度
+    option.UNDERWATER_VFOG=水下体积雾
+    option.UNDERWATER_VFOG_DENSITY=强度
+
+option.LANDSCATTERING=§a地面大气散射
+screen.LANDSCATTERING=设置
+    option.LANDSCATTERING_DISTANCE=单位距离
+    option.LANDSCATTERING_STRENGTH=强度
+    option.LANDSCATTERING_SHADOW=阴影遮蔽
+    option.LANDSCATTERING_SHADOW_QUALITY=阴影采样质量
+
+option.VFOG_REFLECTION=反射中渲染
+option.VFOG_REFRACTION=折射后渲染
+option.LANDSCATTERING_REFLECTION=反射中渲染
+option.LANDSCATTERING_REFRACTION=折射后渲染
+
+option.INDOOR_FOG=禁用光照衰减
+
+screen.VOL_MISC=杂项
+    option.UNDERWATER_FOG=水雾
+    option.WATERFOG_DENSITY=强度
+    option.NETHERFOG_DENSITY=下界雾强度
+    option.ATMO_HORIZON=天空地平线
+    option.ATMO_REFLECTION_HORIZON=反射天空盒地平线
+
+
+
+
+
+screen.POSTPROCESSING=§d后处理
+
+option.TAA=TAA抗锯齿
+
+screen.DOF=§a景深
+    option.DOF=启用景深
+    option.CAMERA_FOCUS_MODE=对焦模式
+        value.CAMERA_FOCUS_MODE.0=自动
+        value.CAMERA_FOCUS_MODE.1=手动
+    option.CAMERA_FOCAL_POINT=手动对焦距离
+        suffix.CAMERA_FOCAL_POINT= m
+    option.CAMERA_APERTURE=光圈值
+
+screen.EXPOSURE_SETTING=§b曝光
+    option.AE_MODE=自动曝光模式
+        value.AE_MODE.0=默认
+        value.AE_MODE.1=中央权重
+        value.AE_MODE.2=仅中央平均
+        value.AE_MODE.3=全屏幕平均
+    option.AE_CURVE=曝光曲线
+    option.AE_OFFSET=自动曝光微调
+        suffix.AE_OFFSET= EV
+    option.LUMINANCE_WEIGHT=亮度权重
+    option.LUMINANCE_WEIGHT_MODE=权重模式
+        value.LUMINANCE_WEIGHT_MODE.0=阴影优先 & 自动权重
+        value.LUMINANCE_WEIGHT_MODE.1=阴影优先
+        value.LUMINANCE_WEIGHT_MODE.2=高光优先
+    option.LUMINANCE_WEIGHT_STRENGTH=权重强度
+    option.SMOOTH_EXPOSURE=平滑曝光
+    option.EXPOSURE_TIME=过渡时长
+    option.MANUAL_EXPOSURE=启用手动曝光
+    option.EV_VALUE=手动曝光EV值
+        suffix.EV_VALUE= EV
+
+screen.MOTION_BLUR_SETTING=§c动态模糊
+    option.MOTION_BLUR=启用动态模糊
+    option.MOTION_BLUR_DITHER=启用噪声
+    option.MOTION_BLUR_QUALITY=采样质量
+    option.MOTION_BLUR_SUTTER_ANGLE=快门角度
+        suffix.MOTION_BLUR_SUTTER_ANGLE=°
+
+screen.BLOOM=§e泛光
+    option.BLOOM_EFFECTS=启用泛光
+    option.BLOOM_AMOUNT=强度
+    option.NETHER_BLOOM_BOOST=下界泛光增益强度
+    option.LENS_FLARE=眩光与镜头炫光
+    option.GLARE_BRIGHTNESS=眩光与星芒强度
+    option.FLARE_BRIGHTNESS=炫光强度
+    option.FLARE_GHOSTING=炫光鬼影
+    option.FLARE_SHADOWBASED=基于阴影遮蔽
+
+screen.COLOR=§d色彩调整
+    option.TONEMAP_OPERATOR=Tonemap类型
+        value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+        value.TONEMAP_OPERATOR.LottesTonemap=Lottes
+        value.TONEMAP_OPERATOR.UchimuraTonemap=Uchimura
+        value.TONEMAP_OPERATOR.HableTonemap=Hable
+        value.TONEMAP_OPERATOR.ACESTonemap=ACES
+        value.TONEMAP_OPERATOR.ACESTonemap2=ACES II
+        value.TONEMAP_OPERATOR.Default=默认
+        value.TONEMAP_OPERATOR.None=无
+    option.TONEMAP_CURVE=映射曲线
+    option.ADVANCED_COLOR=启用进阶色彩调整
+    screen.ADVANCED_COLOR=设置
+        option.SATURATION=饱和度
+        option.GAMMA=Gamma
+        option.LUMA_GAMMA=亮度Gamma
+        option.WHITE_CLIP=白点
+        option.WHITE_BALANCE=色温
+            suffix.WHITE_BALANCE= K
+        option.TINT_BALANCE=色调
+
+screen.POSTMISC=杂项
+    option.SEREEN_RATIO=黑幕宽高比
+        value.SEREEN_RATIO.0.0=当前
+        value.SEREEN_RATIO.1.333333=4:3
+        value.SEREEN_RATIO.1.435052=IMAX
+        value.SEREEN_RATIO.1.5=35mm 胶片
+        value.SEREEN_RATIO.1.6=16:10
+        value.SEREEN_RATIO.1.777778=16:9
+        value.SEREEN_RATIO.2.0=18:9
+        value.SEREEN_RATIO.2.333333=21:9
+        value.SEREEN_RATIO.2.39=35mm 变形宽幕
+    option.POST_SHARPENING=后处理锐化
+        value.POST_SHARPENING.0=关
+        value.POST_SHARPENING.1=低
+        value.POST_SHARPENING.2=中
+        value.POST_SHARPENING.3=高
+    option.LOWLIGHT_COLORFADE=暗光褪色
+    option.LOWLIGHT_COLORFADE_THRESHOLD=触发阈值
+    option.LOWLIGHT_COLORFADE_STRENGTH=混合强度
+
+
+
+
+
+screen.SHORTCUT=快捷选项
+
+option.CAVE_MODE=探窟模式
+
+
+
+
+
+screen.DEBUG=§7调试选项

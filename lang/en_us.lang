@@ -1,0 +1,336 @@
+
+
+option.iterationT_VERSION=iterationT by Tahnass
+option.iterationT_VERSION_TYPE=Developing Stage
+value.iterationT_VERSION_TYPE.AT=Release
+value.iterationT_VERSION_TYPE.BT=220806
+value.iterationT_VERSION.AT=3.0.0
+value.iterationT_VERSION.BT=r3.0.0
+
+option.TITLE=Title
+
+profile.Default=Default
+profile.Mist=Mist
+profile.AfterRain=After Rain
+
+
+
+
+
+screen.LIGHTING=§eLighting
+
+screen.LIGHT_SOURCE=§eLight Source
+    option.sunPathRotation=Sun Path Rotation
+    option.SUNLIGHT_INTENSITY=Sunlight Intensity
+    option.SKYLIGHT_INTENSITY=Skylight Intensity
+    option.NIGHT_BRIGHTNESS=Night Brightness
+    option.COLD_MOONLIGHT=Cold Moonlight
+    option.TORCHLIGHT_BRIGHTNESS=TouchLight Brightness
+    option.TORCHLIGHT_COLOR_TEMPERATURE=Torchlight Color Temperature
+        suffix.TORCHLIGHT_COLOR_TEMPERATURE= K
+    option.NOLIGHT_BRIGHTNESS=Base Luminance Brightness
+    option.NETHER_BRIGHTNESS=Nether Ambient Brightness
+
+screen.HELDLIGHT=§6Held Light Source
+    option.HELDLIGHT_BRIGHTNESS=Brightness
+    option.HELDLIGHT_FALLOFF=Distance Falloff
+    option.NORMAL_HELDLIGHT=Effect Normal
+    option.SPECULAR_HELDLIGHT=Effect Specular
+    option.FLASHLIGHT_HELDLIGHT=Flashlight Mode
+    option.FLASHLIGHT_HELDLIGHT_FALLOFF=Distance Falloff
+
+screen.SHADOW=§cShadow
+    option.shadowMapResolution=ShadowMap Resolution
+    option.shadowDistance=Shadow Distance
+        value.shadowDistance.64.0=4
+        value.shadowDistance.96.0=6
+        value.shadowDistance.128.0=8
+        value.shadowDistance.192.0=12
+        value.shadowDistance.256.0=16
+        value.shadowDistance.384.0=24
+        value.shadowDistance.512.0=32
+        value.shadowDistance.768.0=48
+        value.shadowDistance.1024.0=64
+        suffix.shadowDistance=Chunks
+    option.SHADOW_MAP_BIAS=ShadowMap Bias
+    option.SHADOW_BASIC_BLUR=Shadow Basic Blur
+    option.VARIABLE_PENUMBRA_SHADOWS=Variable Penumbra Shadow
+    option.VPS_QUALITY=Quality
+    option.VPS_SPREAD=Blur Radius
+    option.COLORED_SHADOWS=Colored Shadow
+    option.SCREEN_SPACE_SHADOWS=Screen Space Shadow
+    option.SUNLIGHT_LEAK_FIX=Sunlight Leak Fixing
+
+screen.GI_OPTION=§4GI
+    option.GI_RSM=RSM
+    option.GI_QUALITY=Quality
+    option.GI_RENDER_RESOLUTION=Rendering Size
+        value.GI_RENDER_RESOLUTION.0.25=25%
+        value.GI_RENDER_RESOLUTION.0.5=50%
+    option.GI_RADIUS=Radius
+    option.GI_BRIGHTNESS=Strength
+    option.GI_SKYLIGHT_FALLOFF=Skylight Falloff
+
+
+
+
+
+screen.SURFACE=§aTexture
+
+option.TEXTURE_RESOLUTION=Texture Resolution
+    value.TEXTURE_RESOLUTION.0=Auto
+
+option.ANISOTROPIC_FILTERING_QUALITY=Anisotropic Filtering
+    value.ANISOTROPIC_FILTERING_QUALITY.0=off
+    value.ANISOTROPIC_FILTERING_QUALITY.2=2x
+    value.ANISOTROPIC_FILTERING_QUALITY.4=4x
+    value.ANISOTROPIC_FILTERING_QUALITY.8=8x
+    value.ANISOTROPIC_FILTERING_QUALITY.16=16x
+    value.ANISOTROPIC_FILTERING_QUALITY.32=32x
+
+option.MOD_BLOCK_SUPPORT=Mod Block Support
+    option.MOD_BLOCK_SUPPORT.comment=Support List:. Biomes O' Plenty.
+
+
+screen.POM=§6Parallax
+    option.PARALLAX=Parallax Enabled
+    option.PARALLAX_QUALITY=Quality
+    option.PARALLAX_MAX_REFINEMENTS=Refinements Quality
+    option.PARALLAX_DEPTH=Parallax Depth
+    option.SMOOTH_PARALLAX=Smooth Parallax
+    option.PARALLAX_BASED_NORMAL=Parallax Based Normal
+    option.PARALLAX_SHADOW=Parallax Self Shadow
+    option.PARALLAX_SHADOW_QUALITY=Self Shadow Quality
+
+screen.PBR=§2PBR
+    option.TEXTURE_PBR_FORMAT=PBR Format
+        value.TEXTURE_PBR_FORMAT.0=PTGI
+        value.TEXTURE_PBR_FORMAT.1=Lab PBR
+    option.ROUGHNESS_CLAMP=Clamp High Roughness
+    option.SKY_IMAGE_RESOLUTION=Skybox Resolution
+    option.TERRAIN_NORMAL_CLAMP=Terrian Normal Clamp
+    option.HAND_NORMAL_CLAMP=Hand Normal Clamp
+    option.ENTITY_NORMAL_CLAMP=Entity Normal Clamp
+    option.TEXTURE_EMISSIVENESS=PBR Emissive
+    option.EMISSIVENESS_BRIGHTNESS=Brightness
+    option.EMISSIVENESS_GAMMA=Gamma
+
+screen.WATER_RAIN=§3Water & Rain
+    option.WATER_PARALLAX=Water Parallax
+    option.WAVE_SCALE=Wave Scale
+    option.WAVE_HEIGHT=Wave Height
+    option.RAIN_VISIBILITY=Raindrop Visibility
+    option.RAIN_SPLASH_EFFECT=Rain Splash
+    option.RAIN_SPLASH_BILATERAL=Rain Splash Smooth
+    option.SURFACE_WETNESS=Surface Wetness Override
+    option.RAIN_SHADOW=Rainy Shade
+    option.drynessHalflife=Dry>>Wet Halflife
+    option.wetnessHalflife=Wet>>Dry Halflife
+
+screen.SKY_TEXTURE=§bSky Texture
+    option.STARS=Stars
+    option.MOON_TEXTURE=Moon Texture
+    option.SKY_TEXTURE_BRIGHTNESS=Texture Brightness
+
+screen.SURFMISC=Misc
+    option.ENTITY_STATUS_COLOR=Entity Status Color
+    option.EYES_LIGHTING=Entity eyes Lighting
+    option.SELECTION_BOX_COLOR=Selection Box Color
+        value.SELECTION_BOX_COLOR.0.0=Black
+        value.SELECTION_BOX_COLOR.1.0=Adaptive White
+    option.WAVING_PLANTS=Waving Plants
+    option.PLANT_TOUCH_EFFECT=Plant Touthing Effect
+    option.GENERAL_GRASS_FIX=General Grass Fix
+
+
+
+
+
+screen.VOL=§bVolumetric Effects
+
+option.PLANAR_CLOUDS=§bPlane Clouds
+screen.PC=Setting
+    option.PC_COVERAGE=Coverage
+    option.PC_NOISE_SCALE=Noise Scale
+    option.PC_ALTITUDE=Altitude
+
+option.VOLUMETRIC_CLOUDS=§bVolumetric Clouds
+    option.VOLUMETRIC_CLOUDS.comment=§9████████§f████§9██████. §9█████§f█████████§9████. §9███§f██████§7█§f████§7█§9███. §9███§f██████§7█§f████§7██§9██. §9████§f█§7████§f███§7███§9███. §9███████§f██§7███§9██████.
+screen.VC=Setting
+    option.CLOUD_ACCURACY=Sample Quality
+    option.CLOUD_FBM_OCTAVES=Noise Octaves
+    option.ADAPTIVE_OCTAVES=Adaptive Octaves
+    option.CLOUD_LOCAL_LIGHTING=Local Lighting
+    option.CLOUD_LIGHTING_OFFSET=Lighting Compensation
+    option.CLOUD_FADING=Distance Fading
+    option.CLOUD_SPEED=Cloud Speed
+
+    screen.CLEAR_SETTING=Clear Setting
+    screen.RAIN_SETTING=Rain Setting
+        option.CLOUD_CLEAR_ALTITUDE=Altitude
+        option.CLOUD_CLEAR_THICKNESS=Thickness
+        option.CLOUD_CLEAR_COVERY=Coverage
+        option.CLOUD_CLEAR_DENSITY=Density
+        option.CLOUD_CLEAR_SUNLIGHTING=Sunlight Strength
+        option.CLOUD_CLEAR_SKYLIGHTING=Skylight Strength
+        option.CLOUD_CLEAR_NOISE_SCALE=Scale
+        option.CLOUD_CLEAR_FBM_OCTSCALE=Noise Lacunarity
+        option.CLOUD_CLEAR_UPPER_LIMIT=Upper Limit of Vertical Density Segments
+        option.CLOUD_CLEAR_LOWER_LIMIT=Lower Limit of Vertical Density Segments
+
+        option.CLOUD_RAIN_ALTITUDE=Altitude
+        option.CLOUD_RAIN_THICKNESS=Thickness
+        option.CLOUD_RAIN_COVERY=Coverage
+        option.CLOUD_RAIN_DENSITY=Density
+        option.CLOUD_RAIN_SUNLIGHTING=Sunlight Strength
+        option.CLOUD_RAIN_SKYLIGHTING=Skylight Strength
+        option.CLOUD_RAIN_NOISE_SCALE=Scale
+        option.CLOUD_RAIN_FBM_OCTSCALE=Noise Lacunarity
+        option.CLOUD_RAIN_UPPER_LIMIT=Upper Limit of Vertical Density Segments
+        option.CLOUD_RAIN_LOWER_LIMIT=Lower Limit of Vertical Density Segments
+
+option.VFOG=§eVolumetric Fog
+screen.VFOG=Setting
+    option.VFOG_NOISE_TYPE=Noise Type
+    option.VFOG_DENSITY=Density
+    option.VFOG_DENSITY_BASE=Base Density
+    option.VFOG_QUALITY=Quality
+    option.VFOG_HEIGHT=MidPoint Height
+    option.VFOG_HEIGHT_2=MidPoint Height
+    option.VFOG_FALLOFF=Falloff Distance
+    option.VFOG_IGNORE_WORLDTIME=Ignore Worldtime
+    option.VFOG_STAINED=Transparency Stained
+    option.VFOG_SUNLIGHT_DENSITY=Sunlight Strength
+    option.VFOG_FOG_DENSITY=Skylight Strength
+    option.UNDERWATER_VFOG=Underwater Volumetric Fog
+    option.UNDERWATER_VFOG_DENSITY=Density
+
+
+option.LANDSCATTERING=§aLand Scattering
+screen.LANDSCATTERING=Setting
+    option.LANDSCATTERING_DISTANCE=Unit Distance
+    option.LANDSCATTERING_STRENGTH=Strength
+    option.LANDSCATTERING_SHADOW=Shadow Enabled
+    option.LANDSCATTERING_SHADOW_QUALITY=Shadow Quality
+
+option.VFOG_REFLECTION=Rendered in Reflection
+option.VFOG_REFRACTION=Rendered in Refraction
+option.LANDSCATTERING_REFLECTION=Rendered in Reflection
+option.LANDSCATTERING_REFRACTION=Rendered in Refraction
+
+option.INDOOR_FOG=Disable Skylight Falloff
+
+screen.VOL_MISC=Misc
+    option.UNDERWATER_FOG=Underwater Fog
+    option.WATERFOG_DENSITY=Density
+    option.NETHERFOG_DENSITY=Nether Fog Density
+    option.ATMO_HORIZON=Sky Horizon
+    option.ATMO_REFLECTION_HORIZON=Skybox Horizon
+
+
+
+
+
+screen.POSTPROCESSING=§dPost Processing
+
+option.TAA=TAA Anti-Aliasing
+
+screen.DOF=§aDepth of Field
+    option.DOF=Depth of Field Enabled
+    option.CAMERA_FOCUS_MODE=Focal Mode
+        value.CAMERA_FOCUS_MODE.0=Auto
+        value.CAMERA_FOCUS_MODE.1=Manual
+    option.CAMERA_FOCAL_POINT=Manual Focal Point
+        suffix.CAMERA_FOCAL_POINT= m
+    option.CAMERA_APERTURE=Aperture
+
+screen.EXPOSURE_SETTING=§bExposure
+    option.AE_MODE=AE Mode
+        value.AE_MODE.0=Default
+        value.AE_MODE.1=Center Weighted
+        value.AE_MODE.2=Center Only
+        value.AE_MODE.3=Screen Average
+    option.AE_CURVE=AE Curve
+    option.AE_OFFSET=AE Offset
+        suffix.AE_OFFSET= EV
+    option.LUMINANCE_WEIGHT=Luminance Weighted
+    option.LUMINANCE_WEIGHT_MODE=Mode
+        value.LUMINANCE_WEIGHT_MODE.0=Shadow Priority & Auto Weight
+        value.LUMINANCE_WEIGHT_MODE.1=Shadow Priority
+        value.LUMINANCE_WEIGHT_MODE.2=Highlight Priority
+    option.LUMINANCE_WEIGHT_STRENGTH=Weighted Strength
+    option.SMOOTH_EXPOSURE=Smooth AE
+    option.EXPOSURE_TIME=AE Transition Time
+    option.MANUAL_EXPOSURE=Manual Exposure
+    option.EV_VALUE=Exact EV value
+        suffix.EV_VALUE= EV
+
+screen.MOTION_BLUR_SETTING=§cMotion Blur
+    option.MOTION_BLUR=Motion Blur Enabled
+    option.MOTION_BLUR_DITHER=Dither Enabled
+    option.MOTION_BLUR_QUALITY=Quality
+    option.MOTION_BLUR_SUTTER_ANGLE=Sutter Angle
+        suffix.MOTION_BLUR_SUTTER_ANGLE=°
+
+screen.BLOOM=§eBloom
+    option.BLOOM_EFFECTS=Bloom Enabled
+    option.BLOOM_AMOUNT=Bloom Strength
+    option.NETHER_BLOOM_BOOST=Nether Bloom Boost
+    option.LENS_FLARE=Lens Glare & Flare
+    option.GLARE_BRIGHTNESS=Glare & Sun Stars Brightness
+    option.FLARE_BRIGHTNESS=Flare Brightness
+    option.FLARE_GHOSTING=Ghosting
+    option.FLARE_SHADOWBASED=Based on Shadow
+
+screen.COLOR=§dColor Adjustment
+    option.TONEMAP_OPERATOR=Tonemap
+        value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+        value.TONEMAP_OPERATOR.LottesTonemap=Lottes
+        value.TONEMAP_OPERATOR.UchimuraTonemap=Uchimura
+        value.TONEMAP_OPERATOR.HableTonemap=Hable
+        value.TONEMAP_OPERATOR.ACESTonemap=ACES
+        value.TONEMAP_OPERATOR.ACESTonemap2=ACES II
+    option.TONEMAP_CURVE=Tonemap Curve
+    option.ADVANCED_COLOR=Advanced Color Adjustment Enabled
+    screen.ADVANCED_COLOR=Setting
+        option.SATURATION=Saturation
+        option.GAMMA=Gamma
+        option.LUMA_GAMMA=Luminance Gamma
+        option.WHITE_CLIP=White Clip
+        option.WHITE_BALANCE=White Balance
+            suffix.WHITE_BALANCE= K
+        option.TINT_BALANCE=Tint
+
+screen.POSTMISC=Misc
+    option.SEREEN_RATIO=AspectRatio
+        value.SEREEN_RATIO.0.0=Native
+        value.SEREEN_RATIO.1.333333=4:3
+        value.SEREEN_RATIO.1.435052=IMAX
+        value.SEREEN_RATIO.1.5=35mm Film
+        value.SEREEN_RATIO.1.6=16:10
+        value.SEREEN_RATIO.1.777778=16:9
+        value.SEREEN_RATIO.2.0=18:9
+        value.SEREEN_RATIO.2.333333=21:9
+        value.SEREEN_RATIO.2.39=35mm Anamorphic
+    option.POST_SHARPENING=Post Sharping Level
+        value.POST_SHARPENING.0=Off
+        value.POST_SHARPENING.1=Low
+        value.POST_SHARPENING.2=Medium
+        value.POST_SHARPENING.3=High
+    option.LOWLIGHT_COLORFADE=Lowlight Color Fade
+    option.LOWLIGHT_COLORFADE_THRESHOLD=Threshold
+    option.LOWLIGHT_COLORFADE_STRENGTH=Strength
+
+
+
+
+
+screen.SHORTCUT=Shortcut
+
+option.CAVE_MODE=Cave Mode
+
+
+
+
+
+screen.DEBUG=§7Debug
